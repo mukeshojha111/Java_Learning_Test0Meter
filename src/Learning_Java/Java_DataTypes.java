@@ -22,7 +22,6 @@ public class Java_DataTypes {
 		    boolean - 1bit    True/false       
 		*/
 		
-		
 		byte b1 = 100;
 		short s1 = 150;
 		int i1 = 1;
@@ -40,7 +39,6 @@ public class Java_DataTypes {
 		System.out.println("double value : "+d1);
 		System.out.println("Character value in ASCII: "+c1);
 		System.out.println("Boolean value : "+b2);
-		
 
 	}
 
