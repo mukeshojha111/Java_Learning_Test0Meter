@@ -22,6 +22,7 @@ public class Java_DataTypes {
 		    boolean - 1bit    True/false       
 		*/
 		
+		
 		byte b1 = 100;
 		short s1 = 150;
 		int i1 = 1;
