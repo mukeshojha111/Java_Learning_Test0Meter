@@ -19,3 +19,5 @@ public class unicodeNamePrint {
 	}
 
 }
+
+// OutPut : मुक़ेश ओझऻ
