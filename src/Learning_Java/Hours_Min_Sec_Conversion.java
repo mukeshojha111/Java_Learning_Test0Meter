@@ -11,8 +11,6 @@ public class Hours_Min_Sec_Conversion {
         seconds %= 60;
 
         System.out.println(hours+" hours " + minutes +" minutes " + seconds+" seconds");
-
-
 	}
 
 }
