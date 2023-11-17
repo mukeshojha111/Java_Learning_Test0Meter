@@ -12,12 +12,12 @@ public class FibonacciSeries {
          int a=0;
          int b=1;
          int c;
-         System.out.print(a+" ");
-         System.out.print(b);
+         System.out.println(a);
+         System.out.println(b);
          for(int i=0; i<=num ;  i++)
          {
         	 c = a+b;
-        	 System.out.print(" "+c);
+        	 System.out.println(c);
         	 a=b;
         	 b=c;
          }

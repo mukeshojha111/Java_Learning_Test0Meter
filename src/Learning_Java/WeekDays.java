@@ -13,27 +13,27 @@ public class WeekDays {
 		
 		if(dayNum==1)
 		{
-			System.out.println(dayNum+" - is Monday");
+			System.out.println(dayNum+" - Monday");
 		}
 		else if(dayNum==2)
 		{
-			System.out.println(dayNum+" - is Tuesday");
+			System.out.println(dayNum+" - Tuesday");
 		}
 		else if(dayNum==3)
 		{
-			System.out.println(dayNum+" - is Wednesday");
+			System.out.println(dayNum+" - Wednesday");
 		}
 		else if(dayNum==4)
 		{
-			System.out.println(dayNum+" - is Thursday");
+			System.out.println(dayNum+" - Thursday");
 		}
 		else if(dayNum==5)
 		{
-			System.out.println(dayNum+" - is Friday");
+			System.out.println(dayNum+" - Friday");
 		}
 		else if(dayNum==6)
 		{
-			System.out.println(dayNum+" - is Saturday");
+			System.out.println(dayNum+" - Saturday");
 		}
 		else if(dayNum==7)
 		{
