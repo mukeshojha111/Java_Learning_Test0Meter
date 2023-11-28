@@ -2,7 +2,7 @@ package Learning_Java;
 
 import java.util.Scanner;
 
-public class DaysInMonths {
+public class DayInMonth {
 
 	public static void main(String[] args) {
 

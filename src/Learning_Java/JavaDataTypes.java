@@ -1,6 +1,6 @@
 package Learning_Java;
 
-public class Java_DataTypes {
+public class JavaDataTypes {
 
 	public static void main(String[] args) {
 		/* ********Primitive Data Types********************

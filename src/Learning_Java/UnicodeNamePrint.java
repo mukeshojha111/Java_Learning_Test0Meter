@@ -1,6 +1,6 @@
 package Learning_Java;
 
-public class unicodeNamePrint {
+public class UnicodeNamePrint {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

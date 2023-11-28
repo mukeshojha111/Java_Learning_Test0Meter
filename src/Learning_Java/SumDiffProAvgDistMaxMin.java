@@ -2,7 +2,7 @@ package Learning_Java;
 
 import java.util.Scanner;
 
-public class Sum_Diff_Pro_Avg_Dist_Max_Min {
+public class SumDiffProAvgDistMaxMin {
 
 	public static void main(String[] args) {
         

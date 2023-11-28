@@ -2,7 +2,7 @@ package Learning_Java;
 
 import java.util.Scanner;
 
-public class Positive_Negative {
+public class PositiveNegative {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package Learning_Java;
 
-public class Temperature_Scale {
+public class TemperatureScale {
 
 	//  Program to convert Celcius in Fahrenheit and Kelvin.
 	public static void main(String[] args) {

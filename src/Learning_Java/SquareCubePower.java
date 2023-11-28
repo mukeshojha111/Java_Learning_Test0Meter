@@ -2,7 +2,7 @@ package Learning_Java;
 
 import java.util.Scanner;
 
-public class Square_Cube_Power {
+public class SquareCubePower {
 
 	public static void main(String[] args) {
 		

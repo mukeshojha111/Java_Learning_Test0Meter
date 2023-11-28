@@ -1,6 +1,6 @@
 package Learning_Java;
 
-public class InfinityLoops {
+public class InfinityLoop {
 
 	public static void main(String[] args) {
 		
