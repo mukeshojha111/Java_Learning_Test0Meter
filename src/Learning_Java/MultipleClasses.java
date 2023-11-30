@@ -8,6 +8,10 @@ class Human {
 	String name;
 	int age;
 	String gender;
+	
+	void run(){
+		
+	}
 
 }
 
@@ -16,6 +20,10 @@ class Laptop {
 	String model;
 	String processor;
 	int ramSize;
+	
+	void work() {
+		
+	}
 
 }
 
@@ -24,6 +32,10 @@ class SportMan {
 	String sport;
 	String team;
 	String position;
+	
+	void play() {
+		
+	}
 
 }
 
@@ -31,6 +43,11 @@ class TestCase {
 	String name;
 	String description;
 	String status;
+	
+	void scenario()
+	{
+		
+	}
 
 }
 
@@ -41,6 +58,11 @@ class Car {
 	String model;
 	int year;
 	String color;
+	
+	void drive()
+	{
+		
+	}
 
 }
 
@@ -49,6 +71,11 @@ class Book {
 	String author;
 	String genre;
 	int pages;
+	
+	void read()
+	{
+		
+	}
 
 }
 
@@ -57,12 +84,19 @@ class Dog {
 	String breed;
 	int age;
 
+	void bark()
+	{}
 }
 
 class CoffeeCup {
 	String material;
 	String size;
 	String color;
+	
+	void taste()
+	{
+		
+	}
 
 }
 
@@ -71,6 +105,8 @@ class Movie {
 	String director;
 	String genre;
 	int releaseYear;
+	
+	void watch() {}
 
 }
 
@@ -79,12 +115,22 @@ class Smartphone {
 	String model;
 	String operatingSystem;
 	int storageCapacity;
+	
+	void call()
+	{
+		
+	}
 }
 
 class Teacher {
 	String name;
 	String subject;
 	int experienceYears;
+	
+	void Study()
+	{
+		
+	}
 }
 
 class Restaurant {
@@ -92,6 +138,11 @@ class Restaurant {
 	String cuisine;
 	String location;
 	double rating;
+	
+	void Dinning()
+	{
+		
+	}
 }
 
 class MusicalInstrument {
@@ -99,6 +150,10 @@ class MusicalInstrument {
 	String brand;
 	String material;
 	String soundRange;
+	
+	void playingMusic() {
+		
+	}
 }
 
 class Planet {
@@ -106,4 +161,9 @@ class Planet {
 	double diameter;
 	double distanceFromSun;
 	int numberOfMoons;
+	
+	void rotation()
+	{
+		
+	}
 }
