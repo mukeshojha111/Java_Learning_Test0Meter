@@ -10,7 +10,7 @@ class Human {
 	String gender;
 	
 	void run(){
-		
+		System.out.println("This is run method of Human Class");
 	}
 
 }
@@ -22,7 +22,7 @@ class Laptop {
 	String ramSize;
 	
 	void work() {
-		
+		System.out.println("This is work method of Laptop Class");
 	}
 
 }

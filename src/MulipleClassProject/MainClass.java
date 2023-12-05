@@ -11,6 +11,7 @@ public class MainClass {
 		System.out.println("This is Human Class...\n"+h1.age);
 		System.out.println(h1.name);
 		System.out.println(h1.gender);
+		h1.run();
 		
 		Laptop l1 = new Laptop();
 		l1.brand = "Lenovo";
@@ -21,6 +22,7 @@ public class MainClass {
 		System.out.println(l1.model);
 		System.out.println(l1.processor);
 		System.out.println(l1.ramSize);
+		l1.work();
 	}
 
 }
