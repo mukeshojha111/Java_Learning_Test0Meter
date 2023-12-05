@@ -9,8 +9,8 @@ class Human {
 	int age;
 	String gender;
 	
-	void run(){
-		
+	void details(){
+		System.out.println("Details of Humans are: "+name+"\n"+age+"\n"+gender);
 	}
 
 }
