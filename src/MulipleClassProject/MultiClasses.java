@@ -46,7 +46,7 @@ class TestCase {
 	
 	void scenario()
 	{
-		
+		System.out.println("This is scenario method of TestCase");
 	}
 
 }
@@ -61,7 +61,7 @@ class Car {
 	
 	void drive()
 	{
-		
+		System.out.println("This is drive method of Car");
 	}
 
 }
@@ -74,7 +74,7 @@ class Book {
 	
 	void read()
 	{
-		
+		System.out.println("This is read method of Book");
 	}
 
 }
@@ -85,7 +85,9 @@ class Dog {
 	int age;
 
 	void bark()
-	{}
+	{
+		System.out.println("This is bark method of Dog");
+	}
 }
 
 class CoffeeCup {
@@ -95,7 +97,7 @@ class CoffeeCup {
 	
 	void taste()
 	{
-		
+		System.out.println("This is taste method of CoffeeCup");
 	}
 
 }
@@ -106,7 +108,9 @@ class Movie {
 	String genre;
 	int releaseYear;
 	
-	void watch() {}
+	void watch() {
+		System.out.println("This is watch method of Movie");
+	}
 
 }
 
@@ -118,7 +122,7 @@ class Smartphone {
 	
 	void call()
 	{
-		
+		System.out.println("This is call method of Smartphone");
 	}
 }
 
@@ -129,7 +133,7 @@ class Teacher {
 	
 	void Study()
 	{
-		
+		System.out.println("This is Study method of Teacher");
 	}
 }
 
@@ -141,7 +145,7 @@ class Restaurant {
 	
 	void Dinning()
 	{
-		
+		System.out.println("This is Dinning method of Restaurant");
 	}
 }
 
@@ -152,7 +156,7 @@ class MusicalInstrument {
 	String soundRange;
 	
 	void playingMusic() {
-		
+		System.out.println("This is playingMusic method of MusicalInstrument");
 	}
 }
 
@@ -164,6 +168,6 @@ class Planet {
 	
 	void rotation()
 	{
-		
+		System.out.println("This is rotation method of Planet");
 	}
 }
