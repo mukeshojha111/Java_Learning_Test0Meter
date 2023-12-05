@@ -34,7 +34,7 @@ class SportMan {
 	String position;
 	
 	void play() {
-		
+		System.out.println("This is play method of SportMan");
 	}
 
 }

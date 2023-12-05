@@ -23,6 +23,17 @@ public class MainClass {
 		System.out.println(l1.processor);
 		System.out.println(l1.ramSize);
 		l1.work();
+		
+		SportMan s1 = new SportMan();
+		s1.name = "Virat Kohli";
+		s1.position = "3rd";
+		s1.sport = "Cricket";
+		s1.team = "INDIA";
+		System.out.println("\nThis is SportMan Class...\n"+s1.name);
+		System.out.println(s1.position);
+		System.out.println(s1.sport);
+		System.out.println(s1.team);
+		s1.play();
 	}
 
 }
