@@ -131,7 +131,7 @@ class Teacher {
 	String subject;
 	int experienceYears;
 	
-	void Study()
+	void study()
 	{
 		System.out.println("This is Study method of Teacher");
 	}
@@ -143,7 +143,7 @@ class Restaurant {
 	String location;
 	double rating;
 	
-	void Dinning()
+	void dinning()
 	{
 		System.out.println("This is Dinning method of Restaurant");
 	}
