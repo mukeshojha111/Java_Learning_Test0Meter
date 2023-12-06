@@ -64,8 +64,13 @@ public class InfiniteLoop2 {
 	
 	void loopDoWhileThree()
 	{
-		
+/*
+		do {
+		    // Code to be executed infinitely
+		} 
+		while (No condition provided); 
+*/
 	}
-
+	
 }
 
