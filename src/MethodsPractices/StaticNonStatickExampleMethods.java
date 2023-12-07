@@ -1,6 +1,6 @@
 package MethodsPractices;
 
-public class ExampleMethods {
+public class StaticNonStatickExampleMethods {
 	
 	// Static method
     public static void staticMethod() {
@@ -15,10 +15,10 @@ public class ExampleMethods {
 	public static void main(String[] args) {
 		
 		// Call the static method using the class name
-        ExampleMethods.staticMethod();
+        StaticNonStatickExampleMethods.staticMethod();
 
         // Create an object of the class to call the non-static method
-        ExampleMethods instance = new ExampleMethods();
+        StaticNonStatickExampleMethods instance = new StaticNonStatickExampleMethods();
         instance.nonStaticMethod();
 
 	}
