@@ -15,3 +15,4 @@ public class TestingClass {
 	}
 }
 
+// Result is 100
