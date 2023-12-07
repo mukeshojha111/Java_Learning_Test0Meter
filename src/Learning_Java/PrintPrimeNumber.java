@@ -5,7 +5,7 @@ public class PrintPrimeNumber {
 	public static void main(String[] args) {
 		// Prime Nos - A no which is divisible by 1 and itself is know as prime Number
 		
-		int temp =0;
+		int temp =0 , counter=0;
 		System.out.print("20 Prime Numbers are: ");
 		for(int i=2;i<=72;i++)
 		{
