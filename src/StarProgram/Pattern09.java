@@ -1,6 +1,6 @@
 package StarProgram;
 
-public class PatternNine {
+public class Pattern09 {
 
 	public static void main(String[] args) {
 

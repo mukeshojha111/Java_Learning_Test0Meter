@@ -1,6 +1,6 @@
 package StarProgram;
 
-public class PatternFourteen {
+public class Pattern14 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i <= 5 - 1; i++) {

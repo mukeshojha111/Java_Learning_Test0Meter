@@ -1,6 +1,6 @@
 package StarProgram;
 
-public class PatternSix {
+public class Pattern04 {
 
 	public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class PatternSix {
             }
 
             for (int k = 1; k <= i; k++) {
-                System.out.print(" *");
+                System.out.print("*");
             }
 
             System.out.println();
