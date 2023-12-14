@@ -42,7 +42,6 @@ public class CalculatorMethodOverLoading {
 		cmo.SumCal1(5, 6, 7);
 		cmo.SumCal2(15.23, 12.67);
 		cmo.SumCal3(10.5f, 5.0f);
-        
 	}
 
 }
