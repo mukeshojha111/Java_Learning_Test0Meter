@@ -2,11 +2,11 @@ package Learning_Java;
 
 import java.util.Scanner;
 
-import org.testng.annotations.Test;
+
 
 public class Check1 {
 
-	@Test
+
 	public void main() {
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Enter the number between 1 to 7");
