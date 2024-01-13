@@ -15,6 +15,10 @@ public class RuntimePoly {
 //		c1.method2(); error in this line 
 		
 		c1.method1();
+		
+		
+//		Maruti m1 = new Car2();   error in this line 
+//		m1.method1(); error in this line 
 
 }
 }
