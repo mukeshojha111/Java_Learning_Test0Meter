@@ -46,6 +46,8 @@ public class Check1 {
 			System.err.println("Enter valid number between 1 to 7");
 		}
 
+		
+		
 	}
 
 }
