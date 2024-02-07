@@ -2,9 +2,9 @@ package StringOperations;
 
 import java.util.Scanner;
 
-public class MergeStrings {
+public class ReverseMergeStrings {
     public static void main(String[] args) {
-    	Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         // Input two strings
         System.out.print("Enter the first string: ");
@@ -13,15 +13,16 @@ public class MergeStrings {
         System.out.print("Enter the second string: ");
         String str2 = scanner.nextLine();
 
-        // Merge the strings in the specified pattern
-        String mergedString = mergeStrings(str1, str2);
+        // Merge the strings in reverse order
+        String mergedString = mergeStringsReverseOrder(str1, str2);
 
-        System.out.println("Merged String: " + mergedString);
+        System.out.println("Merged String in Reverse Order: " + mergedString);
 
         scanner.close();
     }
-    
-    private static String mergeStrings(String str1, String str2) {
+
+    // Function to merge strings in reverse order
+    public static String mergeStringsReverseOrder(String str1, String str2) {
         // Calculate the length of the merged string
         int mergedLength = str1.length() + str2.length();
 
@@ -30,16 +31,16 @@ public class MergeStrings {
 
         int index = 0;
 
-        // Merge the strings in the specified pattern
-        for (int i = 0; i < str1.length() || i < str2.length(); i++) {
-            if (i < str1.length()) {
+        // Merge the strings in reverse order
+        for (int i = str1.length() - 1; i >= 0 || i >= str2.length(); i--) {
+            if (i >= 0) {
                 // Add character from the first string
-                mergedArray[index++] = str1.charAt(str1.length() - 1 - i);
+                mergedArray[index++] = str1.charAt(i);
             }
 
             if (i < str2.length()) {
                 // Add character from the second string
-                mergedArray[index++] = str2.charAt(str2.length() - 1 - i);
+                mergedArray[index++] = str2.charAt(i);
             }
         }
 
