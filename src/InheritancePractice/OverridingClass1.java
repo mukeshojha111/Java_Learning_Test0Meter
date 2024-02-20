@@ -18,7 +18,7 @@ class OverridingClass1 {
 		Test2 t2 = new Test2();		
 		Test3 t3 = new Test3();
 
-		t1.test1();
+	//	t1.test1();
 		t2.test1();
 		t3.test1();
 		
@@ -27,13 +27,13 @@ class OverridingClass1 {
 }
 
 
-class Test1{
 
-protected void test1()
-	{
-		System.out.println("Test1 Method");	
-	}
-}
+  class Test1{
+  protected void Test1() { 
+	  System.out.println("Test1 Method"); 
+	  }
+  }
+ 
 
 
 class Test2 extends Test1{
@@ -47,7 +47,7 @@ protected void test1()
 
 class Test3 extends Test2{
 
-protected void test1()
+protected void Test1()
 	{
 	 System.out.println("Test2---->Test3 Method");	
 	}
