@@ -1,4 +1,8 @@
 
+
+You will find answers of assignment answer's over there where only theorically it is need.
+
+***********************************
 Question : can abstract class have static method in java?
 
 Yes, in Java, an abstract class can indeed have static methods. 
