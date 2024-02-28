@@ -1,0 +1,23 @@
+
+Question : can abstract class have static method in java?
+
+Yes, in Java, an abstract class can indeed have static methods. 
+
+Static methods in an abstract class are associated with the class itself rather than with any particular instance of the class. 
+
+They can be called using the class name, without creating an instance of the class.
+****************************************************************************************
+
+Question : Is it necessary to that abstract class have abstract method?
+
+No, it is not necessary for an abstract class to have abstract methods. 
+An abstract class can have concrete (non-abstract) methods along with abstract methods. 
+The key characteristic of an abstract class is that it can have both abstract and non-abstract methods, and it cannot be instantiated on its own.
+********************************************************************************************
+
+Question : can abstract class have construction in java?
+
+Yes, an abstract class in Java can have a constructor. Abstract classes, like any other classes, can define constructors to initialize 
+the state of the class. However, it's important to note that the constructors of abstract classes are typically used for initializing the 
+common state shared by all subclasses.
+
