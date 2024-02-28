@@ -21,3 +21,20 @@ Yes, an abstract class in Java can have a constructor. Abstract classes, like an
 the state of the class. However, it's important to note that the constructors of abstract classes are typically used for initializing the 
 common state shared by all subclasses.
 
+**************************************************************************************
+
+
+Question : can we override static method in java?
+
+No, static methods in Java cannot be overridden in the traditional sense. 
+In the context of inheritance and polymorphism, when a subclass declares a static method with the same signature as a static method in its superclass, 
+it is actually hiding the superclass's static method rather than overriding it.
+
+*********************************************************************************************
+
+Question: when do you favor abstract class over interface ?
+
+Code Reusability, Common State or Fields, Partial Implementation,
+Access Modifiers
+
+
