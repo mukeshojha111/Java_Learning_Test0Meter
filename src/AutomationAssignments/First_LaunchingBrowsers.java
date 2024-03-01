@@ -32,6 +32,10 @@ public class First_LaunchingBrowsers {
 		driver.get("https://www.saucedemo.com/");
 		Thread.sleep(3000);
 		
+		
+		System.out.println("Current URL : "+driver.getCurrentUrl());
+		System.out.println("Title : "+driver.getTitle());
+		System.out.println("Page Source Code : "+driver.getPageSource());
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		Thread.sleep(2000);
 		
