@@ -2,6 +2,16 @@ package Learning_Java;
 
 import java.util.Arrays;
 
+/**
+ * Test cases to consider:
+
+1. An array with distinct values:
+2. An array with repeated values:
+3. An array with negative numbers:
+4. An array with both positive and negative numbers:
+
+ */
+
 public class MinMaxFindeArray {
 
 	public static void main(String[] args) {
