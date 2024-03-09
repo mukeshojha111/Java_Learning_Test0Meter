@@ -6,6 +6,11 @@ import java.io.IOException;
 
 public class FileReader1 {
 
+	
+	// Testfilereader.txt file will be attached in same repository
+	
+	// refer https://github.com/mukeshojha111/Java_Learning_Test0Meter/blob/main/src/Learning_Java/Testfilereader
+	
 	public static void main(String[] args) {
 		String filePath = "D:\\Eclipse Editor\\GIT\\Java_Learning_Test0Meter\\src\\Learning_Java\\Testfilereader";
 
