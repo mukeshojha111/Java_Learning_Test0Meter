@@ -1,18 +1,22 @@
 package StringOperations;
 
 public class CharacterInStrings {
-
 	public static void main(String[] args) {
-		
-		String  s1 = "this is java";
-		String s2 = s1.replaceAll("this is java", "thisisjava");
-		System.out.println("Length of String: "+s2.length());
-		
-		String s3 = "Checking the Data";
-		String s4 = s3.replaceAll("Checking the Data", "CheckingtheData");
-		System.out.println("Length of String: "+s4.length());
+        String input = "this is javaa";
+        int count = countCharacters(input);
+        System.out.println("Number of characters: " + count);
+    }
 
-
-	}
+    public static int countCharacters(String input) {
+        int count = 0;
+        
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) != ' ') {
+                count++;
+            }
+        }
+        
+        return count;
+    }
 
 }
