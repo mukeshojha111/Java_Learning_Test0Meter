@@ -5,37 +5,41 @@ import java.util.Scanner;
 public class MaxOccurringCharacter {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter a string:");
-        String input = scanner.nextLine();
-
-        char maxChar = findMaxOccurringCharacter(input);
-
-        System.out.println("Maximum occurring character: " + maxChar);
+        String input = "abcabcabcaabc";
+        char maxChar = getMaxOccurringChar(input);
+        int maxCount = getMaxOccurrence(input, maxChar);
+        System.out.println("Maximum character found: " + maxChar + " with " + maxCount + " occurrences.");
     }
 
-    private static char findMaxOccurringCharacter(String input) {
-        final int ASCII_SIZE = 256; // Assuming ASCII characters
+    public static char getMaxOccurringChar(String str) {
+        int[] charCount = new int[256]; // Assuming ASCII characters
 
-        int[] charCount = new int[ASCII_SIZE];
-
-        for (int i = 0; i < input.length(); i++) {
-            charCount[input.charAt(i)]++;
+        // Count occurrences of each character
+        for (int i = 0; i < str.length(); i++) {
+            charCount[str.charAt(i)]++;
         }
 
-        char maxChar = '\0';
+        // Find the character with maximum occurrence
         int maxCount = 0;
-
-        for (int i = 0; i < ASCII_SIZE; i++) {
+        char maxChar = ' ';
+        for (int i = 0; i < 256; i++) {
             if (charCount[i] > maxCount) {
-                maxChar = (char) i;
                 maxCount = charCount[i];
+                maxChar = (char) i;
             }
         }
 
         return maxChar;
+    }
 
-	}
+    public static int getMaxOccurrence(String str, char ch) {
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ch) {
+                count++;
+            }
+        }
+        return count;
+    }
 
 }
